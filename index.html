@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>qr code</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <style>
+            .qrcode {
+                border-radius: 10px;
+                width: 200px;
+                height: 200px;
+            }
+            .outerbox {
+                background-color: #add8e6;
+                display: flex;
+                justify-content: center;
+                width: 1440px;
+                height: 1440px;
+                align-items: center;
+
+            }
+            .innerbox {
+                display: flex;
+                width: 220px;
+                height: 350px;
+                background-color: white;
+                justify-content: center;
+                border-radius: 10px;
+            }
+            .mainbox {
+                width: 200px;
+                height: 200px;
+                margin-top: 10px;
+            }
+            .maintext {
+                font-weight: bold;
+                text-align: center;
+                font-size: 15px;
+                font-family: 'Roboto', sans-serif;
+                color: rgb(22, 19, 19);
+            }
+            .subtext {
+                font-family: Arial;
+                font-size: 12px;
+                font-weight: lighter;
+                text-align: center;
+                color: grey;
+            }
+            .major {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="major">
+            <div class="outerbox">
+                <div class="innerbox">
+                    <div class="mainbox">
+                        <div><img class="qrcode" src="image-qr-code.png"></div>
+                        <div>
+                            <p class="maintext">Improve your front-end skill by building projects</p>
+                            <p class="subtext"> Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
